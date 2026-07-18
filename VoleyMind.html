@@ -342,6 +342,59 @@
   .ad-card .adbtn{display:inline-flex;align-items:center;gap:6px;color:var(--ac);font-weight:700;font-size:.86rem;font-family:var(--mono);letter-spacing:.5px}
   .ad-destacadas-tit{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:2px;color:var(--crema2);margin:0 0 12px;font-weight:700}
   .ad-cierre{background:var(--panel);border:1px solid var(--borde);border-radius:12px;padding:18px 22px;color:#ece7db;font-size:1rem;line-height:1.6;font-style:italic;border-left:3px solid var(--naranja);margin-top:8px}
+  /* HERO del sistema pro */
+  .ad-hero{background:linear-gradient(135deg,rgba(232,176,75,.14),rgba(155,109,214,.1));border:1px solid rgba(232,176,75,.35);border-radius:16px;padding:30px 28px;margin-bottom:22px;text-align:center}
+  .ad-hero-tag{display:inline-block;font-family:var(--mono);font-size:.72rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--piso);background:var(--linea);padding:5px 14px;border-radius:20px;margin-bottom:16px;font-weight:700}
+  .ad-hero-tit{font-family:var(--display);font-size:2rem;font-weight:800;color:#fff;line-height:1.12;margin-bottom:14px;letter-spacing:-.5px}
+  .ad-hero-sub{color:var(--crema);font-size:1.05rem;line-height:1.6;max-width:720px;margin:0 auto 14px}
+  .ad-hero-prueba{font-family:var(--mono);font-size:.82rem;color:var(--linea2);letter-spacing:.3px}
+  @media(max-width:820px){.ad-hero-tit{font-size:1.5rem}}
+  /* problema */
+  .ad-problema{background:rgba(239,39,64,.06);border:1px solid rgba(239,39,64,.22);border-left:4px solid #ef2740;border-radius:12px;padding:20px 24px;margin-bottom:22px}
+  .ad-prob-tit{font-family:var(--display);font-size:1.25rem;font-weight:700;color:#fff;margin-bottom:14px}
+  .ad-prob-lista{margin:0 0 14px;padding-left:20px;color:var(--crema2);line-height:1.6}
+  .ad-prob-lista li{margin-bottom:8px}
+  .ad-prob-remate{font-size:1.05rem;font-weight:700;color:var(--linea);font-style:italic}
+  /* comparativa */
+  .ad-comparativa{margin:22px 0}
+  .ad-comp-tabla{width:100%;border-collapse:collapse;margin-top:12px;font-size:.9rem}
+  .ad-comp-tabla th{text-align:left;padding:12px 14px;color:var(--crema2);font-family:var(--mono);font-size:.75rem;text-transform:uppercase;letter-spacing:.5px;border-bottom:2px solid var(--borde)}
+  .ad-comp-tabla th:last-child{color:var(--linea)}
+  .ad-comp-tabla td{padding:12px 14px;border-bottom:1px solid var(--borde);color:var(--crema);vertical-align:top}
+  .adc-q{font-weight:700;color:#fff;width:20%}
+  .adc-data{color:var(--crema2);width:40%}
+  .adc-pro{color:#5ed989;font-weight:600;width:40%;background:rgba(34,197,94,.06)}
+  /* para quién */
+  .ad-paraquien-tit{font-family:var(--display);font-size:1.3rem;font-weight:700;color:#fff;margin:26px 0 14px}
+  .ad-paraquien{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:22px}
+  @media(max-width:820px){.ad-paraquien{grid-template-columns:1fr}}
+  .ad-pq{background:var(--panel);border:1px solid var(--borde);border-radius:12px;padding:20px;text-align:center}
+  .ad-pq-ic{font-size:2rem;margin-bottom:10px}
+  .ad-pq-t{font-family:var(--display);font-size:1.15rem;font-weight:700;color:var(--linea);margin-bottom:8px}
+  .ad-pq-d{color:var(--crema2);font-size:.9rem;line-height:1.5}
+  /* PLANES DE PRECIOS */
+  .ad-planes-tit{font-family:var(--display);font-size:1.5rem;font-weight:800;color:#fff;margin:30px 0 6px;text-align:center}
+  .ad-planes-sub{color:var(--crema2);font-size:.95rem;line-height:1.55;text-align:center;max-width:680px;margin:0 auto 22px}
+  .ad-planes{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:16px}
+  @media(max-width:980px){.ad-planes{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.ad-planes{grid-template-columns:1fr}}
+  .ad-plan{position:relative;background:var(--panel);border:1px solid var(--borde);border-radius:14px;padding:22px 18px;display:flex;flex-direction:column;transition:.2s}
+  .ad-plan:hover{transform:translateY(-4px);border-color:var(--linea)}
+  .ad-plan-top{border:2px solid var(--linea);box-shadow:0 8px 30px rgba(232,176,75,.18)}
+  .ad-plan-badge{position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--linea);color:var(--piso);font-size:.68rem;font-weight:800;padding:4px 14px;border-radius:20px;font-family:var(--mono);letter-spacing:.5px;white-space:nowrap}
+  .ad-plan-ic{font-size:2rem;text-align:center;margin-bottom:6px}
+  .ad-plan-nom{font-family:var(--display);font-size:1.15rem;font-weight:700;color:#fff;text-align:center;margin-bottom:10px}
+  .ad-plan-precio{font-family:var(--display);font-size:1.7rem;font-weight:800;color:var(--linea);text-align:center;line-height:1}
+  .ad-plan-periodo{font-size:.78rem;color:var(--crema2);text-align:center;margin-bottom:12px;font-family:var(--mono)}
+  .ad-plan-pitch{font-size:.86rem;color:var(--crema);text-align:center;font-style:italic;margin-bottom:14px;min-height:38px}
+  .ad-plan-inc{list-style:none;padding:0;margin:0 0 16px;flex:1}
+  .ad-plan-inc li{font-size:.82rem;color:var(--crema);padding:5px 0 5px 20px;position:relative;line-height:1.35}
+  .ad-plan-inc li::before{content:"✓";position:absolute;left:0;color:#5ed989;font-weight:800}
+  .ad-plan-btn{background:transparent;border:1.5px solid var(--linea);color:var(--linea);border-radius:9px;padding:11px;font-weight:700;font-size:.9rem;cursor:pointer;font-family:var(--sans);transition:.2s;width:100%}
+  .ad-plan-btn:hover{background:var(--linea);color:var(--piso)}
+  .ad-plan-btn-top{background:var(--linea);color:var(--piso)}
+  .ad-plan-btn-top:hover{filter:brightness(1.1)}
+  .ad-planes-nota{text-align:center;font-size:.85rem;color:var(--crema2);font-style:italic;margin-bottom:24px;background:rgba(232,176,75,.07);border:1px solid rgba(232,176,75,.2);border-radius:10px;padding:12px 18px}
   /* pilares del sistema pro */
   .ad-pilares{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0}
   @media(max-width:820px){.ad-pilares{grid-template-columns:1fr}}
@@ -751,6 +804,50 @@
     .hero h2{font-size:2rem}
     .hero,.sesion,.panel{padding-left:6%;padding-right:6%}
   }
+  /* ===== Biblioteca de correcciones ===== */
+  .corr-wrap{max-width:1080px;margin:0 auto;padding:8px 4px 60px}
+  .corr-head{margin-bottom:16px}
+  .corr-kick{font-family:var(--mono);font-size:.62rem;letter-spacing:2px;text-transform:uppercase;color:var(--linea);font-weight:700;opacity:.85;margin-bottom:6px}
+  .corr-h1{font-size:2rem;font-weight:800;color:#fff;margin:0 0 8px;line-height:1.1}
+  .corr-sub{color:var(--crema2);font-size:.98rem;max-width:680px}
+  .corr-tier{border-radius:10px;padding:12px 16px;margin:14px 0;font-size:.9rem;line-height:1.5;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .corr-tier.gratis{background:rgba(63,168,118,.12);border:1px solid rgba(63,168,118,.35);color:#d8f0e4}
+  .corr-tier.pro{background:rgba(78,168,222,.1);border:1px solid rgba(78,168,222,.35);color:#dbeaf6}
+  .corr-tier.elite{background:linear-gradient(135deg,rgba(155,109,214,.14),rgba(232,176,75,.06));border:1px solid rgba(155,109,214,.35);color:#ece7db}
+  .corr-cta{background:var(--linea);color:#1a1008;border:none;border-radius:7px;padding:6px 13px;font-weight:700;font-size:.82rem;cursor:pointer;font-family:var(--sans);margin-left:auto}
+  .corr-cta:hover{filter:brightness(1.08)}
+  .corr-search{width:100%;background:var(--piso2);border:1px solid #22354d;border-radius:11px;padding:13px 16px;color:var(--crema);font-family:inherit;font-size:1rem;outline:none;margin:6px 0 4px}
+  .corr-search:focus{border-color:var(--linea)}
+  .corr-funds{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 8px}
+  .corr-fbtn{background:var(--piso2);border:1px solid #22354d;border-radius:28px;padding:8px 16px;cursor:pointer;font-family:var(--sans);font-size:.9rem;color:var(--crema2);display:flex;align-items:center;gap:7px;transition:.14s}
+  .corr-fbtn:hover{border-color:var(--linea);color:#fff}
+  .corr-fbtn.activo{background:var(--linea);color:#1a1008;border-color:var(--linea);font-weight:600}
+  .corr-intro{color:var(--crema2);font-size:.95rem;border-left:3px solid var(--linea);padding:8px 0 8px 15px;background:rgba(232,176,75,.05);margin:14px 0 20px}
+  .corr-dim-tit{font-family:var(--mono);font-size:1rem;letter-spacing:1px;text-transform:uppercase;font-weight:700;margin:20px 0 12px}
+  .corr-fh{font-size:1.35rem;color:#fff;margin:26px 0 4px;font-weight:800}
+  .corr-count{color:var(--crema2);font-size:.85rem;margin:8px 0}
+  .corr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:13px}
+  .corr-card{background:var(--piso2);border:1px solid #22354d;border-radius:11px;overflow:hidden;transition:.16s}
+  .corr-card:hover{transform:translateY(-2px)}
+  .corr-row{padding:11px 15px;display:flex;gap:10px;align-items:flex-start}
+  .corr-row.err{background:rgba(232,105,95,.09);border-bottom:1px solid #22354d}
+  .corr-row.sol{background:rgba(79,191,143,.09)}
+  .corr-row.sol.locked{background:rgba(120,130,150,.08)}
+  .corr-tag{font-family:var(--mono);font-size:.66rem;font-weight:700;letter-spacing:1.2px;padding:3px 8px;border-radius:5px;flex-shrink:0;margin-top:1px;text-transform:uppercase}
+  .corr-tag.e{color:#e8695f;border:1px solid rgba(232,105,95,.4);background:rgba(232,105,95,.08)}
+  .corr-tag.s{color:#4fbf8f;border:1px solid rgba(79,191,143,.4);background:rgba(79,191,143,.08)}
+  .corr-row p{font-size:.9rem;color:var(--crema);margin:0;line-height:1.4}
+  .corr-row.err p{color:#f0d0cc}
+  .corr-blur{color:var(--crema2);font-style:italic;opacity:.75}
+  .corr-fuente{padding:8px 15px;font-size:.76rem;color:var(--crema2);border-top:1px solid #22354d;display:flex;align-items:center;gap:7px;background:rgba(0,0,0,.15);flex-wrap:wrap}
+  .corr-fuente b{color:var(--linea)}
+  .corr-badge{font-size:.66rem;font-weight:700;padding:2px 8px;border-radius:20px;margin-left:auto}
+  .corr-badge.cg{background:rgba(63,168,118,.22);color:#5fd39a}
+  .corr-badge.cp{background:rgba(78,168,222,.2);color:#8fcdf0}
+  .corr-badge.ce{background:rgba(155,109,214,.2);color:#c9a3f0}
+  .corr-card.corr-lock .corr-fuente{background:rgba(155,109,214,.06)}
+  .corr-card.corr-lock .corr-cta{margin-left:0}
+  @media(max-width:600px){.corr-h1{font-size:1.5rem}.corr-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -782,6 +879,7 @@
       <button class="menu-item" data-modo="calculadora"><span class="mi-dot"></span>Calculadora de stats</button>
       <button class="menu-item menu-item-datos" data-modo="analisis"><span class="mi-dot"></span>Sistema Pro ✦</button>
       <button class="menu-item" data-modo="ejercicios"><span class="mi-dot"></span>Banco de drills</button>
+      <button class="menu-item" data-modo="correcciones"><span class="mi-dot"></span>Biblioteca de correcciones</button>
       <button class="menu-item" data-modo="ejclub"><span class="mi-dot"></span>Ejercicios del club</button>
       <button class="menu-item" data-modo="cancha"><span class="mi-dot"></span>Cancha animada ✦</button>
       <button class="menu-item" data-modo="pizarra"><span class="mi-dot"></span>La Pizarra</button>
@@ -858,7 +956,7 @@
 <button id="arriba" title="Volver arriba">↑</button>
 
 <script>
-const SESIONES = [
+const SESIONES=[
  {
   "id": "40-vnl-timeouts",
   "numero": 40,
@@ -870,7 +968,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/40-vnl-timeouts/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -884,7 +982,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/57-vnl-timeouts/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -898,7 +996,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/61-vnl-timeouts/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -912,7 +1010,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/self-awareness/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -926,7 +1024,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/team-culture/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -940,7 +1038,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/on-the-court-25/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -954,7 +1052,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/on-the-court-26/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -968,7 +1066,7 @@ const SESIONES = [
   "fecha": "2024",
   "url": "https://volleybrains.com/francesco-petrella/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -982,7 +1080,7 @@ const SESIONES = [
   "fecha": "2024",
   "url": "https://volleybrains.com/fabio-soli-part1/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -996,7 +1094,7 @@ const SESIONES = [
   "fecha": "2025",
   "url": "https://volleybrains.com/angelo-lorenzetti-part2/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1010,7 +1108,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/andy-inveiss/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1024,7 +1122,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/silvano-prandi/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1038,7 +1136,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/john-kessel/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1052,7 +1150,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/keegan-cook/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1066,7 +1164,7 @@ const SESIONES = [
   "fecha": "2024",
   "url": "https://volleybrains.com/sanja-tomasevic/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1080,7 +1178,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/john-dunning-2/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1094,7 +1192,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/jim-mclaughlin/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1108,7 +1206,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/kirsten-bernthal-booth/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1122,7 +1220,7 @@ const SESIONES = [
   "fecha": "2024",
   "url": "https://volleybrains.com/al-scates/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1136,7 +1234,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/terry-liskevych/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1150,7 +1248,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/kevin-hambly/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1164,7 +1262,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/gianni-caprara/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1178,7 +1276,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/john-dunning/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1192,7 +1290,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/laurent-tillie/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1206,7 +1304,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/dan-friend/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1234,7 +1332,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/jennifer-petrie/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1248,7 +1346,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/kelly-sheffield/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1262,7 +1360,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/tuomas-sammelvuo/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1276,7 +1374,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/guiseppe-vinci/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1290,7 +1388,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/dave-shondell/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1304,7 +1402,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/craig-skinner/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1318,7 +1416,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/alan-knipe/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1346,7 +1444,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/tore-aleksandersen/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1360,7 +1458,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/andrea-gardini/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1374,7 +1472,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/dani-busboom-kelly/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1388,7 +1486,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/cesar-hernandez/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1402,7 +1500,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/john-cook/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1416,7 +1514,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/tommi-tiilikainen/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1430,7 +1528,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/joop-alberda/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1444,7 +1542,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/marco-mencarelli/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1458,7 +1556,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/michal-winiarski-1/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1472,7 +1570,7 @@ const SESIONES = [
   "fecha": "2024",
   "url": "https://volleybrains.com/dan-fisher/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1486,7 +1584,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/andrea-anastasi/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1500,7 +1598,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/luka-slabe/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1514,7 +1612,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/emanuele-zanini/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1528,7 +1626,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/lauren-bertolacci/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1542,7 +1640,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/angelo-lorenzetti/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1584,7 +1682,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/shannon-winzer/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1598,7 +1696,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/mark-lebedew/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1626,7 +1724,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/giovanni-guidetti/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1640,7 +1738,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/glenn-hoag/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1668,7 +1766,7 @@ const SESIONES = [
   "fecha": "14 nov 2021",
   "url": "https://volleybrains.com/tama-miyashiro/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1682,7 +1780,7 @@ const SESIONES = [
   "fecha": "2 jul 2025",
   "url": "https://volleybrains.com/far-out/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1696,7 +1794,7 @@ const SESIONES = [
   "fecha": "18 ene 2021",
   "url": "https://volleybrains.com/vital-heynen/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1710,7 +1808,7 @@ const SESIONES = [
   "fecha": "28 nov 2021",
   "url": "https://volleybrains.com/marcello-abbondanza/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1724,7 +1822,7 @@ const SESIONES = [
   "fecha": "8 mar 2026",
   "url": "https://volleybrains.com/massimo-barbolini/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1738,7 +1836,7 @@ const SESIONES = [
   "fecha": "23 nov 2025",
   "url": "https://volleybrains.com/jamie-morisson/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1752,7 +1850,7 @@ const SESIONES = [
   "fecha": "7 sep 2025",
   "url": "https://volleybrains.com/jason-watson/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1766,7 +1864,7 @@ const SESIONES = [
   "fecha": "2025",
   "url": "https://volleybrains.com/russ-rose-part2/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1780,7 +1878,7 @@ const SESIONES = [
   "fecha": "2025",
   "url": "https://volleybrains.com/tom-black/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1794,7 +1892,7 @@ const SESIONES = [
   "fecha": "2024",
   "url": "https://volleybrains.com/jerritt-elliott/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1808,7 +1906,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/hugh-mccutcheon-tedtalk/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1822,7 +1920,7 @@ const SESIONES = [
   "fecha": "2025",
   "url": "https://volleybrains.com/ray-bechard/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1836,7 +1934,7 @@ const SESIONES = [
   "fecha": "2025",
   "url": "https://volleybrains.com/travis-hudson/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1850,7 +1948,7 @@ const SESIONES = [
   "fecha": "2025",
   "url": "https://volleybrains.com/nickie-sanlin/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1864,7 +1962,7 @@ const SESIONES = [
   "fecha": "2025",
   "url": "https://volleybrains.com/erin-virtue/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1878,7 +1976,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/daniele-santarelli/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1892,7 +1990,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/davide-mazzanti/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1906,7 +2004,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/davide-mazzanti-talk/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1920,7 +2018,7 @@ const SESIONES = [
   "fecha": "2021",
   "url": "https://volleybrains.com/russ-rose/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1934,7 +2032,7 @@ const SESIONES = [
   "fecha": "2022",
   "url": "https://volleybrains.com/hugh-mccutcheon/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1948,7 +2046,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/julio-velasco/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1962,7 +2060,7 @@ const SESIONES = [
   "fecha": "2023",
   "url": "https://volleybrains.com/julio-velasco-2/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1976,7 +2074,7 @@ const SESIONES = [
   "fecha": "2026",
   "url": "https://volleybrains.com/kelly-sheffield-part2/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -1990,7 +2088,7 @@ const SESIONES = [
   "fecha": "2026",
   "url": "https://volleybrains.com/110-timeouts-in-focus-coppa-italia-final-2025-2026/",
   "estado": "recolectada",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2004,7 +2102,7 @@ const SESIONES = [
   "fecha": "2025",
   "url": "https://volleybrains.com/105-timeouts-in-focus/",
   "estado": "recolectada",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2018,7 +2116,7 @@ const SESIONES = [
   "fecha": "2025",
   "url": "https://volleybrains.com/102-timeouts-in-focus/",
   "estado": "recolectada",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2032,7 +2130,7 @@ const SESIONES = [
   "fecha": "14 jun 2026",
   "url": "https://volleybrains.com/andre-sa/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2046,7 +2144,7 @@ const SESIONES = [
   "fecha": "12 jun 2026",
   "url": "https://volleybrains.com/giovanni-guidetti-part2/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2060,7 +2158,7 @@ const SESIONES = [
   "fecha": "19 abr 2026",
   "url": "https://volleybrains.com/john-hawks/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2074,7 +2172,7 @@ const SESIONES = [
   "fecha": "29 mar 2026",
   "url": "https://volleybrains.com/marco-meoni/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2089,7 +2187,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-tuomas-sammelvuo/",
   "estado": "traducida",
   "duracion": "39 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2104,7 +2202,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-francesco-petralla/",
   "estado": "traducida",
   "duracion": "48 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2119,7 +2217,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-maciej-biernat-part-2/",
   "estado": "recolectada",
   "duracion": "25 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2134,7 +2232,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-maciej-biernat/",
   "estado": "recolectada",
   "duracion": "50 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2149,7 +2247,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-tom-black/",
   "estado": "traducida",
   "duracion": "52 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2164,7 +2262,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-cesar-hernandez/",
   "estado": "traducida",
   "duracion": "66 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2179,7 +2277,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-nebraska/",
   "estado": "traducida",
   "duracion": "40 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2194,7 +2292,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-milan-zarkovic/",
   "estado": "recolectada",
   "duracion": "34 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2209,7 +2307,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-ohio-state/",
   "estado": "traducida",
   "duracion": "57 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2224,7 +2322,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-stuttgart/",
   "estado": "traducida",
   "duracion": "49 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2239,7 +2337,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-minas/",
   "estado": "recolectada",
   "duracion": "45 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2254,7 +2352,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-mark-lebedew/",
   "estado": "traducida",
   "duracion": "40 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2269,7 +2367,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-dave-shondell/",
   "estado": "traducida",
   "duracion": "70+ min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2284,7 +2382,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-luka-slabe/",
   "estado": "traducida",
   "duracion": "70+ min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2299,7 +2397,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-karlovarsko/",
   "estado": "traducida",
   "duracion": "65 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2314,7 +2412,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-lewis/",
   "estado": "traducida",
   "duracion": "44 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2329,7 +2427,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-roeselare/",
   "estado": "traducida",
   "duracion": "63 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2344,7 +2442,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-lodi/",
   "estado": "traducida",
   "duracion": "79 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2359,7 +2457,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-stanford/",
   "estado": "traducida",
   "duracion": "doble jornada",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2374,7 +2472,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-paris-part1/",
   "estado": "traducida",
   "duracion": "61 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2389,7 +2487,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-nuc/",
   "estado": "traducida",
   "duracion": "40 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2403,7 +2501,7 @@ const SESIONES = [
   "fecha": "9 mar 2025",
   "url": "https://volleybrains.com/practice-nebraska3/",
   "estado": "traducida",
-  "resumen": "🔒 Contenido Elite. Esta masterclass completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2418,7 +2516,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-nebraska2/",
   "estado": "traducida",
   "duracion": "27 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2433,7 +2531,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-minas2/",
   "estado": "recolectada",
   "duracion": "37 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2448,7 +2546,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/luka-slabe-whiteboard/",
   "estado": "traducida",
   "duracion": "30 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2463,7 +2561,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-paris-part2/",
   "estado": "traducida",
   "duracion": "58 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2478,7 +2576,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/practice-nuc2/",
   "estado": "traducida",
   "duracion": "55 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2493,7 +2591,7 @@ const SESIONES = [
   "url": "https://volleybrains.com/perugia-practice/",
   "estado": "traducida",
   "duracion": "45 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  },
  {
@@ -2508,14 +2606,13 @@ const SESIONES = [
   "url": "https://volleybrains.com/potsdam-practices/",
   "estado": "traducida",
   "duracion": "50 min",
-  "resumen": "🔒 Contenido Elite. Esta clínica de práctica completa está disponible con la suscripción Elite de VoleyMind.",
+  "resumen": "🔒 Contenido Elite. Suscribite para acceder a esta masterclass completa traducida al español.",
   "acceso": "elite"
  }
 ];
-
 </script>
 <script>
-const CONTENIDOS = {
+const CONTENIDOS={
  "50-nicola-negro": "\n<p><i>Nicola Negro es head coach de Minas, el club más fuerte de Sudamérica (3 Superligas brasileñas consecutivas, campeón sudamericano de clubes 2022). Casi 20 años dirigiendo en Italia, Turquía, Azerbaiyán, Eslovenia, Polonia, Rumania y Brasil.</i></p>\n<p class=\"dialogo\"><b>¿Por qué decidiste ser entrenador profesional?</b></p>\n<p>Volvamos a los 90. Fui atleta de joven y tuve la fortuna de crecer en Italia, en una época en que nuestro vóley era el mejor del mundo. Teníamos los mejores entrenadores y jugadores, y cada fin de semana podía ver a estos atletas increíbles: Stork, Kiraly, Timmons; los brasileños Giovane, Tande, Maurício; los italianos que dominaban el masculino. Y al mismo tiempo me acerqué al vóley femenino, tomando el tren a Bérgamo para ver jugar a las cubanas. Elegí ser entrenador porque, por mi altura, no tenía grandes perspectivas como jugador, y siempre quise competir al máximo nivel. Empecé a dirigir a los 19.</p>\n<h3>Buscarse todo solo, y aprender del juego</h3>\n<p>Mi familia no jugaba vóley, así que tuve que buscar todo y descifrarlo solo. Mis primeros años fueron muy importantes. Cada día libre o feriado iba a algún lado a tratar de contactar a los mejores jugadores. Hace 20 años no era como ahora: tener un VHS de una práctica de una selección era un verdadero tesoro, algo rarísimo. Y una idea central: el juego nos enseña cómo tenemos que entrenar. El propio juego es una gran vara para saber cómo mejorar tu coaching; si observás lo que el juego pide, te dice qué necesitás desarrollar.</p>\n<p class=\"cierre\">Gracias, Nicola.</p>\n",
  "33-anders-kristiansson": "<p>Anders Kristiansson, miembro del Salón de la Fama, transformó a la selección sueca de los años 80 en una de las mejores del mundo y luego dirigió con éxito en Italia, Bélgica, Grecia y Japón. Su historia es la de un pionero.</p><p>Lo singular de su recorrido es que empezó a entrenar sin ningún referente: Suecia no tenía cultura de vóley, así que no había a quién imitar ni un camino trazado. Esa carencia, lejos de frenarlo, lo obligó a construir su propio método desde cero, a experimentar y a atreverse a desafiar lo establecido.</p><p>De ahí surge su mensaje más valioso: el valor de innovar cuando no hay modelo. Kristiansson tuvo que confiar en su propio criterio, probar, equivocarse y corregir, sin la seguridad de un sistema heredado. Su carrera demuestra que la falta de tradición puede ser una ventaja si se la transforma en libertad para crear. Una inspiración para cualquier entrenador que trabaja en contextos sin referentes cercanos.</p>",
  "4-liam-sketcher": "<p>Liam Sketcher, integrante del cuerpo técnico de la selección masculina de Australia, centra su enfoque en el desarrollo del jugador y en la psicología del aprendizaje.</p><p>Su idea principal es ayudar a los jugadores a sentir que controlan sus propias acciones en la cancha. Cuando el jugador percibe que las decisiones son suyas —no impuestas—, aprende mejor y compite con más confianza. El rol del entrenador es habilitar esa autonomía, no anularla.</p><p>Sketcher se apoya en una enseñanza del célebre \"El juego interior del tenis\": la técnica está al servicio de un objetivo, no de la estética. No importa que un gesto se vea perfecto si no cumple su función; lo que importa es que resuelva. Y suma una reflexión liberadora: darse cuenta de que uno falla todos los días quita presión. Aceptar el error como parte natural del proceso, en lugar de temerlo, libera al jugador (y al entrenador) para arriesgar y mejorar. Una mirada centrada en la autonomía y en una relación sana con el error.</p>",
@@ -2523,7 +2620,676 @@ const CONTENIDOS = {
  "10-roberto-santilli": "\n<p><i>Roberto Santilli dirigió más de dos décadas en Italia, Polonia, Rusia, Australia y Corea del Sur (campeón de la V-League 2020-2021 con Incheon Korean Air).</i></p>\n<p class=\"dialogo\"><b>¿Por qué decidiste ser entrenador?</b></p>\n<p>Fue en 1978. Tenía 13 años y en mi Roma natal fui a ver la final del Mundial, Italia contra Rusia. Había 15.000 espectadores en el estadio y no podía concebir todas las emociones que sentí. Esa experiencia me marcó profundamente y me enamoré del deporte. Pasé el resto de mi vida persiguiendo ese amor por todo el mundo. Tuve un modelo real en mi padre: aunque no era entrenador, siempre disfrutaba juntar a los chicos de la familia e instruirlos.</p>\n<h3>Inspirar al individuo</h3>\n<p>Cuando era joven pensaba en organizar a la gente a mi alrededor a mi manera, pero con el tiempo me di cuenta de que el trabajo del entrenador es entender a los individuos que forman el equipo, inspirarlos y permitirles ser lo mejor que pueden ser. Mi objetivo personal es siempre disfrutar mi trabajo. Es importante para mí tener una vida feliz.</p>\n<h3>Su enfoque de preparación</h3>\n<p>El punto de partida es conocerte a vos mismo, tus fortalezas y debilidades: sin esto, todo lo demás no vale nada. Segundo, entender el secreto profundo del rival, dónde está su seguridad. Tercero, transferir información entendible y simple a tus jugadores.</p>\n<p class=\"cierre\">Gracias, Roberto.</p>\n",
  "95-alfee-reft": "<p>Alfee Reft, head coach de UCLA y asistente de la selección de EE.UU. medallista olímpica, fue líbero All-American en Hawái. Su enfoque incorpora una dimensión poco habitual en el vóley: el trabajo mental profundo.</p><p>Reft cuenta cómo el trabajo de atención plena (mindfulness) ayudó a equipos que, en el papel, \"no debían\" llegar tan lejos, a alcanzar instancias como los Final Four. Entrenar la capacidad de estar presente, de manejar la ansiedad y de sostener el foco bajo presión puede marcar la diferencia entre el talento y el rendimiento real. Es una herramienta competitiva, no solo de bienestar.</p><p>Su convicción de fondo es que entrenar es, ante todo, moldear personas. Por encima de la técnica y la táctica, el trabajo del entrenador consiste en el desarrollo integral del ser humano que hay detrás del atleta. Formar personas sólidas, conscientes y equilibradas es, para Reft, el verdadero propósito del coaching, y también el camino más confiable hacia el alto rendimiento. Una mirada que integra lo mental, lo humano y lo competitivo.</p>"
 };
-
+</script>
+<script>
+const CORRECCIONES = {
+ "saque": {
+  "nombre": "Saque",
+  "icono": "🎯",
+  "intro": "La primera oportunidad de ganar el punto y el único gesto sin interferencia del rival. Pesa más la intención táctica y la variedad que la potencia.",
+  "tecnica": [
+   {
+    "error": "El flotado 'no flota': le queda rotación y viaja recto y previsible.",
+    "sol": "Contacto seco y plano en el centro-atrás de la pelota, sin snap de muñeca ni acompañar. Como un 'high-five' que frena en el impacto.",
+    "fuente": "Coaching de elite",
+    "tier": "gratis"
+   },
+   {
+    "error": "El saque se va a la red.",
+    "sol": "Revisar primero el lanzamiento: si queda adelante del hombro, el swing baja. Contactar el centro de la pelota, no la mitad de abajo.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "El saque se va largo por el fondo.",
+    "sol": "Se contacta con el talón de la mano (pelota plana). Golpear con el medio de la mano y cerrar con snap para dar topspin y trayectoria descendente.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Lanzamiento inconsistente: cada saque sale distinto.",
+    "sol": "El toss es el predictor N°1 de precisión. 'Levantar' (lift) la pelota, no tirarla, dentro de un radio de 15 cm. Entrenar el lanzamiento aislado, sin golpear.",
+    "fuente": "Junior Volleyball Association",
+    "tier": "pro"
+   },
+   {
+    "error": "Codo bajo y swing cruzado.",
+    "sol": "Codo alto a la altura de la oreja, posición de 'arco y flecha', swing recto a través de la pelota. Medio de la mano al medio de la pelota.",
+    "fuente": "Junior Volleyball Association",
+    "tier": "pro"
+   },
+   {
+    "error": "Jump serve sin potencia (solo brazo).",
+    "sol": "La potencia viene del approach, no del salto. Footwork de 3 pasos con los dos últimos los más rápidos ('wait and accelerate'). Contacto apenas bajo el centro para topspin.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Approach del jump serve descontrolado.",
+    "sol": "Demasiada velocidad descoordina el salto; poca no genera potencia. Buscar el tempo propio: aproximación progresiva, aceleración al final.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Pies mal ubicados al sacar.",
+    "sol": "Pies al ancho de hombros, alineados al blanco, peso repartido y transferencia de atrás hacia adelante al golpear.",
+    "fuente": "Javelin Sports",
+    "tier": "pro"
+   }
+  ],
+  "tactica": [
+   {
+    "error": "El equipo saca fuerte pero previsible: la recepción rival se acomoda.",
+    "sol": "La variedad pesa más que la potencia: variar zona, tipo (flotado/potencia), profundidad y receptor objetivo para romper el ritmo rival.",
+    "fuente": "Maciej Biernat",
+    "tier": "gratis"
+   },
+   {
+    "error": "Se saca solo 'para meterla adentro'.",
+    "sol": "Servir siempre para hacer daño: apuntar al receptor débil, al armador, al atacante rápido o a la formación floja. El saque es un arma, no un trámite.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "El flotado no genera duda en el receptor.",
+    "sol": "Usarlo como herramienta táctica: variar profundidad, ángulos y posición de aproximación (sobre todo con running jump float) para desarmar la recepción.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Se pierde el punto por pantalla (screening).",
+    "sol": "Regla FIVB estricta: si los compañeros tapan la visión del saque saltando o con los brazos, es punto rival. Abrir un carril (correrse en el último segundo) es legal y molesto.",
+    "fuente": "Reglas 2026",
+    "tier": "pro"
+   },
+   {
+    "error": "Se arriesga de más en momentos delicados.",
+    "sol": "Primer saque del set y saque post-timeout: adentro sí o sí. No es el momento de arriesgar al máximo.",
+    "fuente": "Criterio de plan de partido",
+    "tier": "pro"
+   },
+   {
+    "error": "El saque se entrena sin objetivo del día.",
+    "sol": "Fijar 'sacar más/mejor' como meta de la sesión y adaptar el trabajo individual (a quien no puede saltar, golpes cortos).",
+    "fuente": "Steven Vanmedegael",
+    "tier": "elite"
+   }
+  ],
+  "mental": [
+   {
+    "error": "Se corrige el gesto por 'prolijidad' aunque funcione.",
+    "sol": "La técnica está al servicio del objetivo, no de la estética. Si el saque cumple su función, no lo 'arregles'. Definí primero qué buscás.",
+    "fuente": "Liam Sketcher",
+    "tier": "elite"
+   },
+   {
+    "error": "El jugador saca tenso y sin rutina bajo presión.",
+    "sol": "El saque es control puro: es el único momento sin interferencia rival. Rutina previa fija como ancla de foco y calma.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Mentalidad de 'solo poner la pelota en juego'.",
+    "sol": "Entrenar con mentalidad de breakpoint: el saque busca ganar el punto o desarmar la recepción. Esa intención cambia la práctica.",
+    "fuente": "Maciej Biernat",
+    "tier": "elite"
+   }
+  ]
+ },
+ "recepcion": {
+  "nombre": "Recepción",
+  "icono": "🛡️",
+  "intro": "El primer contacto es el rey: sin buena recepción no hay ofensiva. Prioridad a la lectura del saque, la individualización del mensaje y la calidad sobre el volumen.",
+  "tecnica": [
+   {
+    "error": "Los brazos 'nadan' y salen pases descontrolados.",
+    "sol": "Llega tarde con los pies y compensa con la plataforma. Ajustar con pasos cortos y rápidos para quedar detrás de la pelota: los pies primero, la plataforma termina la acción.",
+    "fuente": "Coaching de elite",
+    "tier": "gratis"
+   },
+   {
+    "error": "La recepción sale con fuerza variable e imprecisa.",
+    "sol": "El poder viene de las piernas y del ángulo, no de balancear los brazos. Cue: congelar la plataforma sólida 3 segundos tras el contacto, como estatua.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "La pelota no llega al armador o sale a un costado.",
+    "sol": "Angular la plataforma al blanco según de dónde vino el saque (no 'golpear' la pelota). Brazos no más anchos que las caderas, redirigir a zona 3.",
+    "fuente": "Jim Stone",
+    "tier": "elite"
+   },
+   {
+    "error": "Recibe bien de frente pero falla los saques a los lados.",
+    "sol": "Ensayar todos los ángulos: practicar el movimiento de plataforma derecha-a-izquierda e izquierda-a-derecha según hacia dónde va el saque.",
+    "fuente": "Jim Stone",
+    "tier": "elite"
+   },
+   {
+    "error": "Contra saque potente la recepción se dispara.",
+    "sol": "No empujar con las piernas: construir un ángulo firme y dejar que la pelota rebote en los antebrazos para absorber la velocidad.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Pase corto que no llega a la red.",
+    "sol": "Contacto lejos de la pelota y poco uso de piernas. Acercarse más y usar más piernas, brazos y piernas juntos hacia el blanco.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Pase que se abre hacia la izquierda de la cancha.",
+    "sol": "Se contacta en el centro del cuerpo sin angular. Contactar más sobre el lado derecho del centro y acompañar al blanco.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Contra flotado la recepción es dura y sin control.",
+    "sol": "Recibir de costado abriendo caderas y levantando la plataforma. Habilitar manos altas cuando la pelota lo permite.",
+    "fuente": "Criterio de plan de partido",
+    "tier": "pro"
+   }
+  ],
+  "tactica": [
+   {
+    "error": "El receptor reacciona tarde al tipo de saque.",
+    "sol": "Leer al servidor en secuencia: mano de lanzamiento → mano de golpe → pelota. Toss alto suele ser potencia; toss bajo y deliberado, flotado.",
+    "fuente": "Coaching de elite",
+    "tier": "gratis"
+   },
+   {
+    "error": "La misma corrección no le funciona a todos.",
+    "sol": "Dar inputs distintos a jugadores distintos: lo que a uno le ordena la recepción, a otro lo traba. Personalizar el mensaje.",
+    "fuente": "Tama Miyashiro",
+    "tier": "elite"
+   },
+   {
+    "error": "El sistema recto de 3 sufre con el saque corto/profundo.",
+    "sol": "El patrón recto no siempre es lo mejor. Ser creativo con los patrones; sumar receptores reduce el territorio de cada uno.",
+    "fuente": "Jim Stone",
+    "tier": "elite"
+   },
+   {
+    "error": "El punta delantero llega mal a atacar por recibir mucho.",
+    "sol": "Achicar su zona de recepción para liberarlo al ataque. Repartir el peso hacia los receptores principales.",
+    "fuente": "Criterio de plan de partido",
+    "tier": "pro"
+   },
+   {
+    "error": "La recepción cae en cualquier lado y limita al armador.",
+    "sol": "Objetivo fijo: pelota alta, estable y centrada a zona 3, que le deje al armador sus dos opciones reales.",
+    "fuente": "Criterio de plan de partido",
+    "tier": "pro"
+   }
+  ],
+  "mental": [
+   {
+    "error": "El receptor recibe tenso por miedo a fallar.",
+    "sol": "Enmarcar el error como información para ajustar, no como castigo. El fracaso es parte del aprendizaje.",
+    "fuente": "Tama Miyashiro",
+    "tier": "elite"
+   },
+   {
+    "error": "El jugador se cae anímicamente tras un error.",
+    "sol": "El lenguaje del entrenador moldea cómo aprende y se siente. Lenguaje positivo y foco en el presente.",
+    "fuente": "John Kessel",
+    "tier": "elite"
+   },
+   {
+    "error": "Recepción errática por falta de disciplina.",
+    "sol": "Pies tranquilos (quiet feet), voz fuerte para llamar la pelota, plataforma estable. Leer temprano y angular en vez de golpear.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   }
+  ]
+ },
+ "armado": {
+  "nombre": "Armado",
+  "icono": "🎨",
+  "intro": "El cerebro del equipo. Meoni —3 JJOO y campeón del mundo— centra su filosofía en la anticipación y la decisión. La forma de manos, el footwork y la lectura del bloqueo definen al gran armador.",
+  "tecnica": [
+   {
+    "error": "Contacto brusco y errores de manejo (dobles, retenidas).",
+    "sol": "Formar un triángulo con pulgares e índices (una 'ventana' para ver la pelota), dedos abiertos, contacto con las yemas, manos suaves que amortiguan.",
+    "fuente": "Coaching de elite",
+    "tier": "gratis"
+   },
+   {
+    "error": "El armador salta 'para acelerar el juego' y no llega mejor.",
+    "sol": "Saltar no acelera (un armado parado puede ser más veloz). Se salta para ANTICIPAR: tomar la pelota más alto y temprano, leer el bloqueo y decidir después.",
+    "fuente": "Marco Meoni",
+    "tier": "elite"
+   },
+   {
+    "error": "El armado sale impreciso, el cuerpo mal orientado.",
+    "sol": "Footwork: paso izquierdo a la pelota, cuadrar, liderar con el derecho hacia el target. Transferir el peso izquierda→derecha hacia el blanco.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Queda plantado en los talones (flat-footed) y lento.",
+    "sol": "Falta de anticipación. Drills de reconocimiento temprano: señalar un punto apenas sale el pase para entrenar la reacción y llegar antes.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Arma fuera de equilibrio (off-balance), estirándose.",
+    "sol": "Se sobre-compromete a una dirección. Llegar a una posición atlética, estable y equilibrada, listo para entregar un set consistente.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "El cuerpo no apunta al blanco y el set se desvía.",
+    "sol": "Cuadrar el cuerpo al target: línea de poder de pies → manos → pelota. Ejercicio: armar contra pared con blanco marcado.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Armador paralelo a la red, campo visual reducido.",
+    "sol": "Posición a 45° (no paralelo), entre zona 2 y 3, a menos de un metro de la red, para ver hasta el saque.",
+    "fuente": "Marco Meoni",
+    "tier": "elite"
+   },
+   {
+    "error": "Jump set con contacto a destiempo.",
+    "sol": "Contactar en el punto más alto del salto para un armado preciso y controlado. El timing es todo.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   }
+  ],
+  "tactica": [
+   {
+    "error": "El armador no involucra al central.",
+    "sol": "Regla de oro: el primer pensamiento de cada rally es dónde está tu central, tenerlo siempre 'en las manos'. Desde ahí se juega todo lo demás.",
+    "fuente": "Marco Meoni",
+    "tier": "gratis"
+   },
+   {
+    "error": "Arma siempre igual sin leer el bloqueo.",
+    "sol": "Armar es decidir: drills que fuercen a leer el bloqueo y elegir el set óptimo (con bloqueadores en vivo o señales visuales).",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Se pierde en pelota alta despegada (out-of-system).",
+    "sol": "Entrenar específicamente pelotas altas y separadas de la red, que obligan a resolver bajo presión y al atacante a ajustar su swing.",
+    "fuente": "Dave Shondell",
+    "tier": "elite"
+   },
+   {
+    "error": "Tras armar queda parado y no cubre.",
+    "sol": "Encadenar armado→cobertura: correr a la red inmediatamente tras el set, listo para pelota bloqueada.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Confunde el plan general con la jugada puntual.",
+    "sol": "Distinguir estrategia (dónde querés estar en mayo) de táctica (cómo lo hacés jugada a jugada). Tener claras ambas capas.",
+    "fuente": "Marco Meoni",
+    "tier": "elite"
+   }
+  ],
+  "mental": [
+   {
+    "error": "El armador cree que hay una única 'verdad' técnica.",
+    "sol": "Mentalidad abierta: incluso el mejor presenta su filosofía como 'un punto de vista, no la verdad'. Adaptar, no dogmatizar.",
+    "fuente": "Marco Meoni",
+    "tier": "elite"
+   },
+   {
+    "error": "Feedback vago que no mejora al armador.",
+    "sol": "Elogio específico y sincero; crítica constructiva con sugerencias concretas. El video en cámara lenta revela fallos sutiles de footwork/contacto.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Se subestima el entorno del jugador.",
+    "sol": "El talento encuentra la manera, pero el entorno es decisivo: rodear al armador de buenos jugadores lo hace mejor.",
+    "fuente": "Marco Meoni",
+    "tier": "elite"
+   }
+  ]
+ },
+ "ataque": {
+  "nombre": "Ataque",
+  "icono": "💥",
+  "intro": "Rematar con criterio, no solo con fuerza. Juego de pies, swing tipo látigo, variedad de recursos. La técnica sólida antes que la potencia: 'intenso pero no tenso'.",
+  "tecnica": [
+   {
+    "error": "Approach lento o mal ritmado, sin explosión.",
+    "sol": "3-4 pasos con los dos últimos los más rápidos ('wait and accelerate'). El primer paso ubica el ángulo. Middle de frente; punta en ángulo.",
+    "fuente": "The Art of Coaching",
+    "tier": "gratis"
+   },
+   {
+    "error": "El atacante llega tenso y el brazo pega 'duro' sin fluidez.",
+    "sol": "El swing es un látigo, no un empujón: manos relajadas y bajas en los primeros pasos. Si levanta las manos, sube el centro de gravedad y frena. Intenso pero no tenso.",
+    "fuente": "The Art of Coaching",
+    "tier": "elite"
+   },
+   {
+    "error": "Poca altura y poca potencia en el salto.",
+    "sol": "Doble armado: ambos brazos explotan arriba juntos. 'Arco y flecha': guía apunta, codo de golpe a 90°. Abrir y cerrar de un portazo (hombro→codo→muñeca).",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "La pelota se va larga por el fondo (sails).",
+    "sol": "Se contacta con el talón de la mano (sin topspin). Golpear con el medio de la mano y cerrar con snap de muñeca para bajarla.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "El remate se va a la red.",
+    "sol": "La pelota cae muy bajo antes del contacto o queda muy adelante. Ajustar el timing: contactar en el punto más alto, apenas delante del hombro de golpe.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Toca la red al rematar pegado.",
+    "sol": "Frenar el swing tras el contacto (no acompañar full). El armador aleja un poco la pelota de la red y el atacante salta vertical y más atrás.",
+    "fuente": "The Art of Coaching",
+    "tier": "elite"
+   },
+   {
+    "error": "El atacante 'no llega' o sale muy temprano de la red.",
+    "sol": "A) No se despega lo suficiente para el approach completo → marcar con cono cuánto atrás ir. B) Sale antes por miedo a llegar tarde → reforzar 'estar disponible' y leer la salida de la pelota del armador.",
+    "fuente": "Bill Neville",
+    "tier": "elite"
+   },
+   {
+    "error": "Juego de pies sucio en entrada y transición.",
+    "sol": "Trabajar patrones de pies limpios en entrada y transición ANTES de exigir potencia. Base técnica primero.",
+    "fuente": "Luka Slabe",
+    "tier": "elite"
+   },
+   {
+    "error": "El central solo sabe rematar fuerte.",
+    "sol": "Enseñarle el 'junk': tirar pelotas al piso ofensivamente, no solo pegar. Ampliar el repertorio.",
+    "fuente": "Luka Slabe",
+    "tier": "elite"
+   }
+  ],
+  "tactica": [
+   {
+    "error": "Ataque predecible, fácil de defender.",
+    "sol": "Desarrollar variedad: línea, diagonal, diagonal corta, toque. Sin versatilidad no se explotan los huecos de la defensa.",
+    "fuente": "Coaching de elite",
+    "tier": "gratis"
+   },
+   {
+    "error": "Cierra el golpe buscando 'colocar' y se hace bloquear.",
+    "sol": "Atacar fuerte, alto y largo, variando ángulos, sin cerrar el swing. Un ataque fuerte y largo es buen error; bloqueo por cerrar es mal error.",
+    "fuente": "Criterio de plan de partido",
+    "tier": "pro"
+   },
+   {
+    "error": "El approach no se ajusta a dónde viene el set.",
+    "sol": "Adaptar la aproximación al set: central de frente, punta en ángulo. Timing de pies consistente respecto al armador.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Fuerza el ataque contra bloqueo formado.",
+    "sol": "Buscar los últimos 3 metros del fondo. Rejugar cuando haga falta en lugar de forzar un ataque comprometido.",
+    "fuente": "Criterio de plan de partido",
+    "tier": "pro"
+   },
+   {
+    "error": "Los atacantes no comparten lenguaje con el sistema.",
+    "sol": "Trabajar los llamados ('front', 'commit') y cómo se traducen en el movimiento a punta o central en slide.",
+    "fuente": "Kevin Hambly",
+    "tier": "elite"
+   },
+   {
+    "error": "Pega pelotas 'por pegar' sin corregir nada.",
+    "sol": "Aislar el movimiento (solo swing, solo approach), cámara lenta, repetir con UNA corrección en mente. Calidad sobre cantidad.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   }
+  ],
+  "mental": [
+   {
+    "error": "Se coarta la iniciativa ofensiva del jugador.",
+    "sol": "Si puede rematar —incluso el líbero en la situación que lo permite— dejalo rematar. No frenar la agresividad.",
+    "fuente": "Emanuele Zanini",
+    "tier": "elite"
+   },
+   {
+    "error": "Se corrige una mala decisión como si fuera mala técnica.",
+    "sol": "Distinguir error táctico (mala decisión) de técnico (mala ejecución). Cada uno se corrige distinto.",
+    "fuente": "Coachingvb",
+    "tier": "pro"
+   },
+   {
+    "error": "El atacante se frustra tras el error.",
+    "sol": "Mentalidad de crecimiento: cada error es info. Revisar contacto, timing y swing con auto-corrección y feedback.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   }
+  ]
+ },
+ "bloqueo": {
+  "nombre": "Bloqueo",
+  "icono": "✋",
+  "intro": "Lebedew: recordar los elementos técnicos vale más que machacar movimientos, porque nunca hay dos jugadas iguales. Penetración, lectura (eye sequencing) y disciplina de no estirarse.",
+  "tecnica": [
+   {
+    "error": "La pelota se cuela entre las manos y la red, al pecho.",
+    "sol": "No penetra. Llevar las manos lo más lejos posible del otro lado ('press over', no manotear). No penetrar es el error más común y crítico del bloqueo.",
+    "fuente": "Coaching de elite",
+    "tier": "gratis"
+   },
+   {
+    "error": "La pelota rebota hacia el propio lado.",
+    "sol": "'Thumbs to the moon': dedos abiertos, pulgares arriba, codos al frente, palmas a la cancha rival. Presionar hacia adelante y abajo.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "El brazo se expone y lo 'toolean'.",
+    "sol": "Codo delante del hombro, muñeca delante del codo, bloquear frente al cuerpo. Penetración sin exponer el brazo.",
+    "fuente": "Mark Lebedew",
+    "tier": "elite"
+   },
+   {
+    "error": "Se desplaza en el aire e invade o queda descolocado.",
+    "sol": "Saltar y caer en el mismo lugar. Aterrizar estable y listo para la siguiente jugada.",
+    "fuente": "Mark Lebedew",
+    "tier": "elite"
+   },
+   {
+    "error": "Al pegar la pelota, los brazos salen volando hacia atrás.",
+    "sol": "Alta tensión de core en el salto, abdominales activos y hombros 'seteados'/bloqueados. Ese es el secreto de los bloqueadores de elite.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Manotea la pelota (swat) en lugar de bloquear.",
+    "sol": "Manos rígidas creando un techo sólido que angula al medio de la cancha rival. Presionar y penetrar con muñecas firmes, no pegarle.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "El salto llega tarde o temprano según el ataque.",
+    "sol": "Contra rápido (1er tiempo), potencia de gemelos (salto reactivo). Contra sets altos/lentos, flexión de rodilla más profunda (cuádriceps).",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Se estira/reachea por la pelota.",
+    "sol": "La mayoría de los bloqueos son con las manos, no con los brazos. Comprometerse a lo que se bloquea, no reachear.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   }
+  ],
+  "tactica": [
+   {
+    "error": "El bloqueador mira solo la pelota y salta tarde.",
+    "sol": "Eye sequencing: Pelota → Armador → Pelota → Atacante. Trackear línea de hombros y release del armador, después el swing. Saltar CON el swing, no con la pelota.",
+    "fuente": "Coaching de elite",
+    "tier": "gratis"
+   },
+   {
+    "error": "Se machacan movimientos y en el partido no sirven.",
+    "sol": "Nunca hay dos jugadas iguales. Los ejercicios son recordatorios de los elementos técnicos, no repetición mecánica de posiciones.",
+    "fuente": "Mark Lebedew",
+    "tier": "elite"
+   },
+   {
+    "error": "El bloqueo cubre 'una zona' y el atacante la esquiva.",
+    "sol": "Bloquear la pelota, no la zona: el extremo toma la pelota, el central cierra la diagonal, el otro extremo baja a la diagonal corta.",
+    "fuente": "Criterio de plan de partido",
+    "tier": "pro"
+   },
+   {
+    "error": "El mismo bloqueo contra todo tipo de atacante.",
+    "sol": "Contra el que busca las manos (tool), presionar sobre y angular adentro. Contra diagonal aguda, quitar el ángulo con mano interior firme.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Hueco (seam) entre bloqueadores por donde entra la pelota.",
+    "sol": "Trabajar el 'sealing' sin saltar para cerrar la costura del doble/triple bloqueo.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "La defensa no sabe cuándo hay bloqueo y cuándo no.",
+    "sol": "La defensa grita cuando no se llega a bloquear. Bloqueo y defensa son un sistema conectado.",
+    "fuente": "Criterio de plan de partido",
+    "tier": "pro"
+   }
+  ],
+  "mental": [
+   {
+    "error": "El bloqueador busca la 'posición perfecta' y se frustra.",
+    "sol": "Soltar esa idea: cada jugada es distinta. El foco es leer y adaptarse, no reproducir un movimiento memorizado.",
+    "fuente": "Mark Lebedew",
+    "tier": "elite"
+   },
+   {
+    "error": "Se abusa del salto full y se cargan las articulaciones.",
+    "sol": "El bloqueo es muy exigente: salto completo limitado a 15-20 min, pocas veces por semana. Confianza en 1-contra-1 controlado.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   }
+  ]
+ },
+ "defensa": {
+  "nombre": "Defensa",
+  "icono": "🤿",
+  "intro": "Primer contacto defensivo y transición al contraataque. USA Volleyball lo resume: estudio, disciplina y paciencia. Leer al atacante, posicionarse antes del contacto y estar quieto al contactar.",
+  "tecnica": [
+   {
+    "error": "Reacción lenta, postura alta.",
+    "sol": "Posición base: pies algo más que ancho de hombros, peso adelante sobre las puntas (posición de tip), un pie adelante, brazos al frente y separados, listo para correr primero.",
+    "fuente": "USA Volleyball",
+    "tier": "gratis"
+   },
+   {
+    "error": "Falla el dig por moverse justo al contactar.",
+    "sol": "'Estar quieto antes del contacto', ni temprano ni tarde: estable justo al golpear. El split step ayuda a sincronizar.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "El dig sale disparado por balancear los brazos.",
+    "sol": "No sumarle movimiento al remate (viene a 50-90 km/h). Relajar un poco los brazos hacia el cuerpo al contactar para absorber. Las piernas dan el envión.",
+    "fuente": "USA Volleyball",
+    "tier": "elite"
+   },
+   {
+    "error": "La pelota se queda abajo y no se levanta.",
+    "sol": "Caderas por debajo del nivel de la pelota antes del contacto. Eso la levanta y la mantiene del propio lado.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Arma la plataforma sobre la marcha y llega tarde.",
+    "sol": "Preparar la plataforma antes de ir: una palma sobre la otra, pulgares al piso para brazos rectos y plataforma plana.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "La pelota abierta (zona 1 o 5) se va afuera.",
+    "sol": "No balancear ambos brazos: cruzar el hombro opuesto por delante. La plataforma debe mirar al armador, no a de dónde vino la pelota.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Los brazos siempre a la misma altura.",
+    "sol": "Ajustar según distancia a la red: cerca y contra rápidos, brazos algo más altos (camino más corto); profundo, más bajos.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   }
+  ],
+  "tactica": [
+   {
+    "error": "El defensor mira solo la pelota y llega tarde.",
+    "sol": "Leer al atacante: cuerpo, armswing y contacto de mano. Entrenar con hitter en cajón que pega duro→suave→tip para aprender a leer.",
+    "fuente": "USA Volleyball",
+    "tier": "gratis"
+   },
+   {
+    "error": "El defensor se ubica al azar.",
+    "sol": "Posicionarse ANTES de que el atacante contacte, en el read position correcto. Sin buena ubicación previa no hay dig posible.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "El rival abusa de tips y empujones.",
+    "sol": "El scouting se traduce en posicionamiento: preparar a los defensores para ese tip desde el primer balón. Levantar los primeros condiciona al rival.",
+    "fuente": "Tuomas Sammelvuo",
+    "tier": "elite"
+   },
+   {
+    "error": "Roles defensivos confusos.",
+    "sol": "Reparto claro: opuesto sube de posición 1; atacantes físicos defienden su diagonal corta y se quedan; puntas defensivos van a posición 4 al tip.",
+    "fuente": "Tuomas Sammelvuo",
+    "tier": "elite"
+   },
+   {
+    "error": "Sale corriendo al tip antes de leer.",
+    "sol": "Esperar, leer y después salir a tomar el tip, en lugar de salir directo. Anticipar sin comprometerse demasiado pronto.",
+    "fuente": "César Hernández",
+    "tier": "elite"
+   },
+   {
+    "error": "Se ubica a cada jugador donde no rinde.",
+    "sol": "Poner a cada uno en su mejor posición: los potentes en la red, los especialistas defensivos en la zaga.",
+    "fuente": "Jan De Brandt",
+    "tier": "elite"
+   },
+   {
+    "error": "Tras defender, queda plantado y no transiciona.",
+    "sol": "Construir el hábito: después de cada contacto defensivo, los dos pasos siguientes van hacia la base. Practicarlo en drills vivos.",
+    "fuente": "Revolution VB",
+    "tier": "pro"
+   }
+  ],
+  "mental": [
+   {
+    "error": "El jugador se encoge ante el remate potente.",
+    "sol": "Meter el cuerpo en el camino de la pelota. Abrazar el desafío: cuantos más remates defendés, más fácil se hace.",
+    "fuente": "Coaching de elite",
+    "tier": "pro"
+   },
+   {
+    "error": "Se desmorona en un fundamento de error constante.",
+    "sol": "Foco en el presente y lenguaje positivo del entrenador para sostener el esfuerzo y la actitud.",
+    "fuente": "John Kessel",
+    "tier": "elite"
+   },
+   {
+    "error": "Defensa desordenada, sin criterio.",
+    "sol": "Los 3 pilares: estudiar al oponente, disciplina para leer las pistas e ir con las probabilidades, paciencia para cubrir tu área y confiar en el compañero.",
+    "fuente": "USA Volleyball",
+    "tier": "elite"
+   }
+  ]
+ }
+};
 </script>
 <script>
 /* ============================================================
@@ -12046,104 +12812,158 @@ const CALC_STATS = {
 </script>
 <script>
 /* ============================================================
-   ANALISIS_DATOS.JS — Vidriera del Sistema Pro de Análisis
-   Basado en el sistema REAL (VOLLEY_NAFELS), funcionando en
-   clubes de Suiza (NLA) y Argentina. Vidriera + demo real.
+   ANALISIS_DATOS.JS — Vidriera del Sistema Pro (versión venta)
+   Sistema REAL funcionando en clubes de Suiza (NLA) y Argentina.
    ============================================================ */
 
 const ANALISIS_DATOS = {
-  intro:"El salto de calidad definitivo. Un sistema profesional que toma el scouting que ya hacés en DataVolley y lo convierte en una app web con la marca de tu club: plan de partido por jugador, scouting del rival, estadísticas y video pegado a cada jugada. Para todo el equipo, y que se actualiza sola. No es un prototipo — ya está funcionando en clubes de la liga suiza y de Argentina.",
-  badge:"Producto Pro · se contrata aparte",
+  hero:{
+    tag:"El sistema que ya usan clubes de primera división",
+    titulo:"Todo tu análisis de vóley, en un solo lugar.",
+    subtitulo:"Scouting, video, estadística, plan de partido, preparación física y gestión del plantel — integrado en una sola app web, con la marca de tu club. Más completo que DataVolley, muchísimo más accesible, y pensado para entrenadores, no para analistas de datos.",
+    prueba:"Funcionando hoy en Näfels (1ª división de Suiza · NLA) y San Lorenzo (Argentina)."
+  },
+  badge:"Servicio Pro · para clubes y entrenadores",
   demoNota:"Las demos funcionan con datos de ejemplo, para que veas el sistema real trabajando. La versión completa se activa con los datos de TU equipo, con tu escudo y tus colores.",
+  problema:{
+    titulo:"Hoy, analizar un partido es caro y está roto en pedazos",
+    puntos:[
+      "DataVolley es potente pero cerrado, caro y poco visual: te da planillas densas que después tenés que interpretar solo.",
+      "Usás una herramienta para el scouting, otra para el video, Excel para el físico, WhatsApp para comunicarte y PDFs para el plan de partido. Todo separado.",
+      "El análisis en vivo, durante el partido, casi no existe salvo que tengas un analista dedicado y software carísimo.",
+      "Ver la jugada que acaba de pasar necesita equipamiento que la mayoría de los clubes no puede pagar."
+    ],
+    remate:"El Sistema Pro junta todo eso en una sola herramienta visual, y a una fracción del costo."
+  },
   pilares:[
-    {t:"Video pegado a la jugada", icono:"🎬", desc:"El diferencial más fuerte: doble clic en una zona de la cancha y ves ESE ataque exacto en video. Se terminó el 'los números por un lado y el video por otro'."},
-    {t:"Para todo el equipo", icono:"👥", desc:"Dos vistas: el jugador ve lo suyo (su rendimiento, físico, próximo rival, video); el cuerpo técnico ve además todas las herramientas de gestión. No se queda en el escritorio del analista."},
-    {t:"Se actualiza sola", icono:"🔄", desc:"Sumás un partido, corrés un paso, y toda la app queda al día. Del archivo .dvw de DataVolley a la app lista, sin rehacer nada a mano."}
+    {t:"El video, pegado a la jugada", icono:"🎬", desc:"El diferencial que no tiene nadie: doble clic en una zona de la cancha y ves ESE ataque exacto en video. Del número a la jugada real, en un clic. Se terminó el 'los datos por un lado y el video por otro'."},
+    {t:"Análisis EN VIVO, durante el partido", icono:"🔴", desc:"Scouteás punto por punto en tiempo real y el plan de partido se llena solo mientras jugás. Lo que normalmente exige un analista dedicado y software caro, acá lo hacés vos desde la tablet."},
+    {t:"Video sin equipamiento caro", icono:"📱", desc:"La cámara de un celular transmite a tu tablet por WiFi y ves la jugada con unos segundos de retardo, o repetís el último punto. Sin cámaras profesionales, sin servidores, sin gastar una fortuna."},
+    {t:"Para todo el equipo", icono:"👥", desc:"Dos vistas: el jugador entra y ve lo suyo (su rendimiento, su físico, el próximo rival, su video); el cuerpo técnico ve todo y gestiona. No se queda en el escritorio del analista."},
+    {t:"Se actualiza sola", icono:"🔄", desc:"Sumás un partido, corrés un paso y toda la app queda al día. Del archivo del scouting a la app lista, sin rehacer nada a mano."},
+    {t:"Compatible con el estándar", icono:"🔗", desc:"Usa los archivos de DataVolley, así que se integra con lo que ya hacés. Pero también podés scoutear con la app propia y ahorrarte la licencia por completo."}
   ],
   comoFunciona:{
     titulo:"Cómo funciona, en 3 pasos",
     pasos:[
-      {n:"1", t:"Scouteás en DataVolley", d:"Como ya lo hacés. Te queda tu archivo .dvw del partido."},
-      {n:"2", t:"Un clic para actualizar", d:"Ponés el .dvw en su carpeta y apretás un botón. El sistema genera todo y lo publica online solo."},
-      {n:"3", t:"Todo el equipo lo ve", d:"La app queda al día: dashboard, planes de partido, scouting, video. Cada uno entra y ve lo suyo."}
+      {n:"1", t:"Scouteás el partido", d:"En DataVolley, como ya lo hacés — o en la app propia del sistema, sin pagar la licencia. En vivo o después del partido."},
+      {n:"2", t:"Un clic para actualizar", d:"El sistema procesa todo y lo publica online solo: estadísticas, planes de partido, mapas de calor, video."},
+      {n:"3", t:"Todo el equipo lo ve", d:"Cada uno entra desde su teléfono o compu y ve lo suyo, con el escudo y los colores de tu club."}
+    ]
+  },
+  comparativa:{
+    titulo:"Por qué conviene",
+    filas:[
+      {q:"Precio", data:"Licencia cara en euros, por año", pro:"Mucho más accesible, pensado para clubes reales"},
+      {q:"Qué incluye", data:"Solo scouting y estadística", pro:"Scouting + video + físico + gestión + comunicación"},
+      {q:"Video pegado al dato", data:"No", pro:"Sí — doble clic y ves la jugada"},
+      {q:"Para el plantel", data:"No, solo el analista", pro:"Sí — cada jugador ve lo suyo"},
+      {q:"Facilidad", data:"Planillas densas, curva alta", pro:"Visual, pensado para entrenadores"}
     ]
   },
   herramientas:[
+    {nombre:"Plan de Partido por jugador", archivo:"plan_partido.html", icono:"📋", color:"#f59e0b",
+     desc:"La joya del sistema. El scouting del rival jugador por jugador: canchas de ataque, saque y recepción de cada uno, con mapas de calor por zona. Doble clic en una zona y ves el video de esa jugada. Se llena en vivo mientras scouteás.", destacado:true},
+    {nombre:"Panel en vivo", archivo:"panel_voley.html", icono:"🔴", color:"#ef2740",
+     desc:"Scouteá durante el partido, punto por punto, con las mismas teclas de DataVolley. Marcador tipo tablero y la estadística se arma sola mientras mirás el juego. Modo partido y modo entrenamiento.", destacado:true},
+    {nombre:"Scouting del rival", archivo:"scouting_rival.html", icono:"🔍", color:"#f97316",
+     desc:"El dossier completo del rival: game plan con filtros por fase (side-out y transición), recepción, bandas y tipo de saque. Llegás al partido sabiendo qué esperar.", destacado:true},
+    {nombre:"Análisis por fundamento", archivo:"analisis.html", icono:"📊", color:"#818cf8",
+     desc:"Ataque, saque, recepción, armado y defensa. Rendimiento por jugador con sus baterías 'jugador vs equipo', y mapas de calor de dónde ataca, saca, recibe y arma cada uno.", destacado:false},
+    {nombre:"Preparación física", archivo:"prep_fisica.html", icono:"💪", color:"#22c55e",
+     desc:"Rutinas y objetivos del plantel. El preparador arma la rutina y el jugador la recibe en el teléfono, donde registra las cargas que levantó. Tests y progreso de cada uno.", destacado:false},
+    {nombre:"Wellness (bienestar)", archivo:"wellness.html", icono:"❤️", color:"#2dd4bf",
+     desc:"El estado físico diario que cargan los jugadores: sueño, fatiga, dolores, ánimo. Detectás señales tempranas antes de que se vuelvan lesiones.", destacado:false},
+    {nombre:"Tendencias e historial", archivo:"tendencias.html", icono:"📈", color:"#2dd4bf",
+     desc:"Cómo evolucionan los números partido a partido. Qué mejora, qué se estanca, dónde poner el foco a lo largo de la temporada.", destacado:false},
+    {nombre:"Comparador", archivo:"comparador.html", icono:"⚖️", color:"#818cf8",
+     desc:"Dos jugadores cara a cara, o tu equipo contra el rival. Los datos lado a lado para decidir mejor.", destacado:false},
+    {nombre:"Dashboard del entrenador", archivo:"dashboard.html", icono:"🎛️", color:"#ef2740",
+     desc:"El panel general: cómo viene tu equipo de un vistazo, con acceso a todos los módulos del sistema.", destacado:false}
+  ],
+  paraQuien:{
+    titulo:"Para quién es",
+    items:[
+      {icono:"🏆", t:"Clubes", d:"De primera, semiprofesionales o formativos: análisis de nivel profesional al alcance del presupuesto real."},
+      {icono:"👤", t:"Entrenadores", d:"El DT que hoy hace todo esto a mano o con cinco herramientas distintas, en una sola."},
+      {icono:"🏐", t:"Equipos y jugadores", d:"Cada jugador con su rendimiento, su físico y su video, accesible desde el teléfono."}
+    ]
+  },
+  pruebaSocial:"No es un prototipo: está en la cancha, usándose cada semana. Funciona hoy en Näfels (1ª división de Suiza, liga NLA) y en San Lorenzo (Argentina), en tres idiomas.",
+
+  // ---- PLANES DE PRECIOS ----
+  planesIntro:{
+    titulo:"Planes para cada necesidad",
+    sub:"Desde el entrenador que quiere dar el salto, hasta el club que gestiona todas sus categorías. Precios por temporada, mucho más accesibles que el software tradicional (DataVolley: de USD 320 a USD 860 al año por una sola licencia)."
+  },
+  planes:[
     {
-      nombre:"Plan de Partido por jugador",
-      archivo:"plan_partido.html",
-      icono:"📋",
-      color:"#f59e0b",
-      desc:"La joya del sistema. El scouting del rival jugador por jugador: canchas de ataque, saque y recepción de cada uno, con mapas de calor por zona. Doble clic en una zona y ves el video de esa jugada. Más la distribución del armador y notas editables.",
-      destacado:true
+      nombre:"Entrenador",
+      icono:"👤",
+      precio:"USD 120",
+      periodo:"por temporada",
+      pitch:"Para el DT que quiere analizar como un profesional.",
+      destacado:false,
+      incluye:[
+        "Plan de partido por jugador",
+        "Scouting del rival completo",
+        "Estadística y baterías de rendimiento",
+        "Mapas de calor (ataque, saque, recepción, armado)",
+        "Video pegado a cada jugada",
+        "Compatible con tus archivos de DataVolley"
+      ]
     },
     {
-      nombre:"Panel en vivo",
-      archivo:"panel_voley.html",
-      icono:"🔴",
-      color:"#ef2740",
-      desc:"Scouteá durante el partido, punto por punto, en tiempo real. La estadística se arma sola mientras mirás el juego. Herramienta del cuerpo técnico.",
-      destacado:true
+      nombre:"Equipo",
+      icono:"🏐",
+      precio:"USD 240",
+      periodo:"por temporada",
+      pitch:"El equipo completo, trabajando adentro del sistema.",
+      destacado:true,
+      incluye:[
+        "Todo lo del plan Entrenador",
+        "Vista para cada jugador (ve lo suyo)",
+        "Preparación física y registro de cargas",
+        "Wellness diario del plantel",
+        "Comunicación interna del equipo",
+        "Calendario y fixture"
+      ]
     },
     {
-      nombre:"Scouting del rival",
-      archivo:"scouting_rival.html",
-      icono:"🔍",
-      color:"#f97316",
-      desc:"El dossier completo del rival: game plan con filtros por fase (side-out y transicion), recepcion, bandas y tipo de saque. Llegas al partido sabiendo que esperar.",
-      destacado:true
+      nombre:"Club",
+      icono:"🏆",
+      precio:"USD 490",
+      periodo:"por temporada",
+      pitch:"Toda la institución, con la marca de tu club.",
+      destacado:false,
+      incluye:[
+        "Todo lo del plan Equipo",
+        "Varios equipos (masculino, femenino, formativas)",
+        "Con el escudo y los colores del club",
+        "Estadísticas de liga automáticas",
+        "Panel en vivo para scoutear durante el partido",
+        "Soporte prioritario"
+      ]
     },
     {
-      nombre:"Analisis por fundamento",
-      archivo:"analisis.html",
-      icono:"📊",
-      color:"#818cf8",
-      desc:"Ataque, saque, recepcion, armado y defensa. Rendimiento por jugador con sus baterias 'jugador vs equipo', y mapas de calor de donde ataca, saca, recibe y arma cada uno.",
-      destacado:false
-    },
-    {
-      nombre:"Preparacion fisica",
-      archivo:"prep_fisica.html",
-      icono:"💪",
-      color:"#22c55e",
-      desc:"Rutinas y objetivos de preparacion fisica del plantel. Cargas, ejercicios y progreso de cada jugador.",
-      destacado:false
-    },
-    {
-      nombre:"Wellness (bienestar)",
-      archivo:"wellness.html",
-      icono:"❤️",
-      color:"#2dd4bf",
-      desc:"El estado fisico diario que cargan los jugadores: sueno, fatiga, dolores, animo. Detectas senales tempranas antes de que se vuelvan lesiones.",
-      destacado:false
-    },
-    {
-      nombre:"Tendencias e historial",
-      archivo:"tendencias.html",
-      icono:"📈",
-      color:"#2dd4bf",
-      desc:"Como evolucionan los numeros partido a partido. Que mejora, que se estanca, donde poner el foco a lo largo de la temporada.",
-      destacado:false
-    },
-    {
-      nombre:"Comparador",
-      archivo:"comparador.html",
-      icono:"⚖️",
-      color:"#818cf8",
-      desc:"Dos jugadores cara a cara, o tu equipo contra el rival. Los datos lado a lado para decidir mejor.",
-      destacado:false
-    },
-    {
-      nombre:"Dashboard del entrenador",
-      archivo:"dashboard.html",
-      icono:"🎛️",
-      color:"#ef2740",
-      desc:"El panel general: como viene tu equipo de un vistazo, con acceso a todos los modulos del sistema.",
-      destacado:false
+      nombre:"Federación / Institución",
+      icono:"🏛️",
+      precio:"A consultar",
+      periodo:"a medida",
+      pitch:"Licencia, soporte e integración para federaciones y grandes instituciones.",
+      destacado:false,
+      incluye:[
+        "Solución a medida de la institución",
+        "Múltiples clubes o selecciones",
+        "Integración y soporte dedicado",
+        "Capacitación del cuerpo técnico"
+      ]
     }
   ],
-  pruebaSocial:"Ya esta funcionando en dos clubes reales: uno en la liga suiza (NLA) y uno en Argentina. No es un prototipo: esta en la cancha, usandose cada semana.",
-  cierre:"El analisis que ya haces, convertido en la herramienta que usa todo tu equipo. Proba las demos, mira como funciona de verdad, y cuando quieras dar el salto, lo activamos con los datos, el escudo y los colores de tu club."
+  planesNota:"Precios de lanzamiento, en dólares para operar en Argentina y en el exterior. ¿Sos de los primeros? Consultá por el precio de socio fundador.",
+
+  cierre:"El análisis que soñás para tu equipo, funcionando de verdad y a un precio que un club puede pagar. Pedí una demo con los datos de tu equipo y mirá lo que puede hacer.",
+  cta:"Quiero una demo para mi equipo"
 };
 
 </script>
@@ -13581,6 +14401,90 @@ const ANALISIS_DATOS = {
       </div>`).join('');
   }
 
+  // ---- Biblioteca de correcciones (freemium por tier) ----
+  let corrFund='saque', corrBuscar='';
+  // TIER actual del usuario: 'gratis' | 'pro' | 'elite'. En la demo pública queda en 'gratis'.
+  const TIER_USUARIO = (typeof PLAN_USUARIO!=='undefined') ? PLAN_USUARIO : 'gratis';
+  const CORR_DIMS=[{k:'tecnica',l:'Técnica',c:'#4ea8de',ic:'⚙️'},{k:'tactica',l:'Táctica',c:'#e8b04b',ic:'♟️'},{k:'mental',l:'Mental',c:'#9d7fd8',ic:'🧠'}];
+  function tierAlcanza(tier){
+    if(TIER_USUARIO==='elite') return true;
+    if(TIER_USUARIO==='pro') return tier!=='elite';
+    return tier==='gratis';
+  }
+  function corrEsc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+  function corrHL(t,q){ if(!q) return corrEsc(t); const re=new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi'); return corrEsc(t).replace(re,'<mark>$1</mark>'); }
+  function corrCard(c,q){
+    const libre=tierAlcanza(c.tier);
+    const badge = c.tier==='gratis' ? '<span class="corr-badge cg">🎁 Gratis</span>'
+      : c.tier==='pro' ? '<span class="corr-badge cp">◆ Pro</span>'
+      : '<span class="corr-badge ce">⭐ Elite</span>';
+    if(libre){
+      return `<div class="corr-card">
+        <div class="corr-row err"><span class="corr-tag e">Error</span><p>${corrHL(c.error,q)}</p></div>
+        <div class="corr-row sol"><span class="corr-tag s">Solución</span><p>${corrHL(c.sol,q)}</p></div>
+        <div class="corr-fuente">💡 <b>${corrHL(c.fuente,q)}</b>${badge}</div>
+      </div>`;
+    } else {
+      // bloqueada: muestra el error como gancho, oculta la solución
+      return `<div class="corr-card corr-lock">
+        <div class="corr-row err"><span class="corr-tag e">Error</span><p>${corrHL(c.error,q)}</p></div>
+        <div class="corr-row sol locked"><span class="corr-tag s">Solución</span><p class="corr-blur">La solución completa está disponible con la suscripción.</p></div>
+        <div class="corr-fuente">🔒 ${badge} <button class="corr-cta" onclick="setModo('planes')">Desbloquear</button></div>
+      </div>`;
+    }
+  }
+  function renderCorrecciones(){
+    if(typeof CORRECCIONES==='undefined'){ panelWrap('<div class="vacio">Cargando biblioteca…</div>'); return; }
+    const funds=Object.keys(CORRECCIONES);
+    // contar accesibles
+    let totalCorr=0, accesibles=0;
+    funds.forEach(f=>CORR_DIMS.forEach(d=>(CORRECCIONES[f][d.k]||[]).forEach(c=>{totalCorr++; if(tierAlcanza(c.tier))accesibles++;})));
+    // header + tier
+    const tierMsg = TIER_USUARIO==='elite'
+      ? `<div class="corr-tier elite">⭐ <b>Plan Elite.</b> Tenés acceso a las ${totalCorr} correcciones, incluidas las de las eminencias mundiales.</div>`
+      : TIER_USUARIO==='pro'
+      ? `<div class="corr-tier pro">◆ <b>Plan Pro.</b> Accedés a las correcciones de trabajo diario. Las de las eminencias (⭐ Elite) se desbloquean con Elite. <button class="corr-cta" onclick="setModo('planes')">Ver Elite</button></div>`
+      : `<div class="corr-tier gratis">🎁 <b>Muestra gratis.</b> Estás viendo ${accesibles} de ${totalCorr} correcciones. Suscribite para acceder a la biblioteca completa. <button class="corr-cta" onclick="setModo('planes')">Ver planes</button></div>`;
+    // botones de fundamento
+    const fundBtns=funds.map(f=>`<button class="corr-fbtn ${f===corrFund&&!corrBuscar?'activo':''}" onclick="corrSetFund('${f}')"><span>${CORRECCIONES[f].icono}</span>${CORRECCIONES[f].nombre}</button>`).join('');
+    // contenido
+    let cuerpo='';
+    if(corrBuscar){
+      const q=corrBuscar.toLowerCase(); let n=0;
+      funds.forEach(f=>{
+        const F=CORRECCIONES[f]; let fh='';
+        CORR_DIMS.forEach(d=>{
+          const items=(F[d.k]||[]).filter(c=>(c.error+' '+c.sol+' '+c.fuente).toLowerCase().includes(q));
+          if(items.length){ fh+=`<div class="corr-dim-tit" style="color:${d.c}">${d.ic} ${d.l}</div><div class="corr-grid">${items.map(c=>corrCard(c,corrBuscar)).join('')}</div>`; n+=items.length; }
+        });
+        if(fh) cuerpo+=`<h3 class="corr-fh">${F.icono} ${F.nombre}</h3>${fh}`;
+      });
+      cuerpo = n ? `<div class="corr-count">${n} correcciones para "${corrEsc(corrBuscar)}"</div>`+cuerpo : `<div class="vacio">No se encontraron correcciones con ese término.</div>`;
+    } else {
+      const F=CORRECCIONES[corrFund];
+      cuerpo=`<div class="corr-intro">${F.intro}</div>`;
+      CORR_DIMS.forEach(d=>{
+        const items=F[d.k]||[];
+        if(items.length) cuerpo+=`<div class="corr-dim-tit" style="color:${d.c}">${d.ic} ${d.l}</div><div class="corr-grid">${items.map(c=>corrCard(c,'')).join('')}</div>`;
+      });
+    }
+    panelWrap(`
+      <div class="corr-wrap">
+        <div class="corr-head">
+          <div class="corr-kick">Herramientas del DT</div>
+          <h1 class="corr-h1">Biblioteca de Correcciones</h1>
+          <p class="corr-sub">Detectá el error, aplicá la solución. Técnica, táctica y mentalidad para reforzar con tus jugadores, inspiradas en las eminencias del vóley mundial.</p>
+        </div>
+        ${tierMsg}
+        <input class="corr-search" id="corr-q" placeholder="🔎 Buscar por error, solución o eminencia…" value="${corrEsc(corrBuscar)}">
+        <div class="corr-funds">${fundBtns}</div>
+        <div class="corr-body">${cuerpo}</div>
+      </div>`);
+    const q=document.getElementById('corr-q');
+    if(q){ q.oninput=(e)=>{ corrBuscar=e.target.value.trim(); const pos=e.target.selectionStart; renderCorrecciones(); const nq=document.getElementById('corr-q'); if(nq){nq.focus(); nq.setSelectionRange(pos,pos);} }; }
+  }
+  function corrSetFund(f){ corrFund=f; corrBuscar=''; renderCorrecciones(); }
+
   // ---- Análisis y datos (vidriera + demo del Sistema Pro) ----
   function renderAnalisis(){
     const A=ANALISIS_DATOS;
@@ -13604,15 +14508,47 @@ const ANALISIS_DATOS = {
         <div class="adpx-n">${p.n}</div>
         <div class="adpx-b"><div class="adpx-t">${p.t}</div><div class="adpx-d">${p.d}</div></div>
       </div>`).join('');
+    const problemaPuntos=A.problema.puntos.map(p=>`<li>${p}</li>`).join('');
+    const compFilas=A.comparativa.filas.map(f=>`
+      <tr><td class="adc-q">${f.q}</td><td class="adc-data">${f.data}</td><td class="adc-pro">${f.pro}</td></tr>`).join('');
+    const paraQuien=A.paraQuien.items.map(i=>`
+      <div class="ad-pq"><div class="ad-pq-ic">${i.icono}</div><div class="ad-pq-t">${i.t}</div><div class="ad-pq-d">${i.d}</div></div>`).join('');
+    const planes=A.planes.map(p=>`
+      <div class="ad-plan${p.destacado?' ad-plan-top':''}">
+        ${p.destacado?'<div class="ad-plan-badge">★ Más elegido</div>':''}
+        <div class="ad-plan-ic">${p.icono}</div>
+        <div class="ad-plan-nom">${p.nombre}</div>
+        <div class="ad-plan-precio">${p.precio}</div>
+        <div class="ad-plan-periodo">${p.periodo}</div>
+        <div class="ad-plan-pitch">${p.pitch}</div>
+        <ul class="ad-plan-inc">${p.incluye.map(x=>`<li>${x}</li>`).join('')}</ul>
+        <button class="ad-plan-btn${p.destacado?' ad-plan-btn-top':''}" onclick="contratarPro()">${p.precio==='A consultar'?'Consultar':'Pedir demo'}</button>
+      </div>`).join('');
     panelWrap(`<h2>📡 Sistema Pro de Análisis</h2>
-      <div class="ad-intro">
-        <div class="ad-tierbar"><span class="ad-tier">⭐ ${A.badge}</span></div>
-        <p>${A.intro}</p>
+      <div class="ad-hero">
+        <div class="ad-hero-tag">✦ ${A.hero.tag}</div>
+        <div class="ad-hero-tit">${A.hero.titulo}</div>
+        <div class="ad-hero-sub">${A.hero.subtitulo}</div>
+        <div class="ad-hero-prueba">📍 ${A.hero.prueba}</div>
+        <button class="ad-cta-btn" style="margin-top:18px" onclick="contratarPro()">${A.cta} →</button>
       </div>
+      <div class="ad-problema">
+        <div class="ad-prob-tit">${A.problema.titulo}</div>
+        <ul class="ad-prob-lista">${problemaPuntos}</ul>
+        <div class="ad-prob-remate">${A.problema.remate}</div>
+      </div>
+      <div class="ad-destacadas-tit">Lo que lo hace imbatible</div>
       <div class="ad-pilares">${pilares}</div>
       <div class="ad-comofunciona">
         <div class="ad-cf-tit">${A.comoFunciona.titulo}</div>
         <div class="ad-pasos">${pasos}</div>
+      </div>
+      <div class="ad-comparativa">
+        <div class="ad-cf-tit">${A.comparativa.titulo}</div>
+        <table class="ad-comp-tabla">
+          <thead><tr><th></th><th>Software tradicional</th><th>Sistema Pro</th></tr></thead>
+          <tbody>${compFilas}</tbody>
+        </table>
       </div>
       <div class="ad-prueba">✅ <b>Ya está en la cancha.</b> ${A.pruebaSocial}</div>
       <div class="ad-demobar">🎮 <b>Probalo vos mismo.</b> ${A.demoNota}</div>
@@ -13620,12 +14556,17 @@ const ANALISIS_DATOS = {
       <div class="ad-grid">${destacadas.map(card).join('')}</div>
       <div class="ad-destacadas-tit">Todo el sistema</div>
       <div class="ad-grid">${resto.map(card).join('')}</div>
+      <div class="ad-paraquien-tit">${A.paraQuien.titulo}</div>
+      <div class="ad-paraquien">${paraQuien}</div>
+      <div class="ad-planes-tit">${A.planesIntro.titulo}</div>
+      <div class="ad-planes-sub">${A.planesIntro.sub}</div>
+      <div class="ad-planes">${planes}</div>
+      <div class="ad-planes-nota">💡 ${A.planesNota}</div>
       <div class="ad-cta">
         <div class="ad-cta-t">¿Listo para el salto de calidad?</div>
-        <div class="ad-cta-d">Probaste las demos con datos de ejemplo. La versión completa se activa con los datos de tu equipo — con tu escudo, tus colores y el scouting que ya hacés.</div>
-        <button class="ad-cta-btn" onclick="contratarPro()">Quiero contratar el Sistema Pro</button>
-      </div>
-      <div class="ad-cierre">${A.cierre}</div>`);
+        <div class="ad-cta-d">${A.cierre}</div>
+        <button class="ad-cta-btn" onclick="contratarPro()">${A.cta} →</button>
+      </div>`);
   }
   function abrirStats(archivo){ window.open('stats/'+archivo, '_blank'); }
   function contratarPro(){ if(!abrirContacto('Hola! Quiero contratar el Sistema Pro de Análisis para mi club. Me gustaría coordinar una demo.')) alert('Sistema Pro de Análisis 🏐📡\n\nEscribinos para activar el sistema completo con los datos de tu equipo y coordinar una demo.'); }
@@ -13663,6 +14604,7 @@ const ANALISIS_DATOS = {
     else if(m==='tecnologia') renderTecnologia();
     else if(m==='calculadora'){ calcActiva='ataque'; renderCalculadora(); }
     else if(m==='analisis') renderAnalisis();
+    else if(m==='correcciones'){ corrFund='saque'; corrBuscar=''; renderCorrecciones(); }
     else if(m==='planes') renderPlanes();
   }
   document.querySelectorAll('.menu-item').forEach(b=>b.onclick=()=>setModo(b.dataset.modo));
